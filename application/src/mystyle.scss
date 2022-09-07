@@ -1,0 +1,19 @@
+$mycolorvar:red;
+$mycolor:blue;//golbal variable
+$mybgcolor:#a2b3c6;
+
+h1{     $mycolor:orange;//use local variable
+        color:$mycolor;
+}
+h2{
+        color:$mycolorvar;
+        font:
+        {//this nested in font
+                size: 72px;
+                family:sans-serif;
+        
+        }
+}
+h3{
+        color:$mybgcolor;
+}

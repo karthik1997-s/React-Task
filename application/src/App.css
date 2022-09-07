@@ -1,0 +1,103 @@
+
+.body{
+   
+  margin: 0;  
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  font-size: 15px;
+
+
+    
+}
+
+
+.app {
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-top: 20vh;
+ margin-left: 30vh;
+ margin-bottom: 20vh;
+ width: 50vh;
+ background-color: #01d28e;
+ border-radius: 10%;
+ border-width: 100px;
+
+
+}
+
+.title{
+   text-align: center;
+   margin-top: 50px;
+   font-size: large;
+}
+
+
+
+.submit{
+  align-items: center;
+  color: wheat;
+  text-align: center;
+  margin-left: 2px;
+  
+}
+ 
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 50px;
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+.form{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10vh;
+  margin-left: 30vh;
+  margin-bottom: 50vh;
+  width: 60vh;
+  
+  background-color: #01d28e;
+  height: 85vh;
+  border-radius: 10%;
+  border-width: 100px;
+}
+.reginput-container{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 50px;
+  display: flex;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  font-size: 2vh;
+}
+ 
+.card-style {
+  padding-left: 13px;
+}
+.basket{
+  position:relative;
+}
+
+.basket span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background-color:darkgray;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 50%;
+
+}
+.card-icon{
+  font-size: 22px;
+}
